@@ -6,7 +6,7 @@ const cors = require("cors");
 // משתנים סודיים והגדרות של השרת
 // 456987
 const {routesInit} = require("./routes/config_routes")
-require("./db/mongoconnect");
+require("./db/mongoConnect");
 
 const app = express();
 
