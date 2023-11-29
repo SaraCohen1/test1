@@ -55,7 +55,7 @@ router.post("/", async(req,res) => {
   }
   catch(err){
     if(err.code == 11000){
-      return res.status(500).json({msg:"Email already in system, try log in",code:11000})
+      return res.status(500).json({msg:"Email already in system, try log in 123",code:11000})
        
     }
     console.log(err);
