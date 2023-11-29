@@ -17,7 +17,7 @@ export const decalreFormEvent = (_doApi) => {
 
 
 const addNewCountry = async(_bodyData,_doApi) => {
-  let myUrl = "http://localhost:3000/countries"
+  let myUrl = "http://https://test-sara-p34o.onrender.com/countries"
   try{
     let resp = await axios({
       url:myUrl,
